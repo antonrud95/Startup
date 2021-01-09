@@ -1,0 +1,24 @@
+@tailwind base;
+@import './typography.scss';
+
+@tailwind components;
+
+@tailwind utilities;
+@import './functions.scss';
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import './typography.scss'
