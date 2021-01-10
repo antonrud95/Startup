@@ -5,7 +5,39 @@
     font-size: remify(16px);
     line-height: remify(24px);
 }
+.text-20px {
+    @apply font-bold;
+    font-size: remify(16px);
+    line-height: remify(24px);
+    @screen lg {
+        font-size: remify(20px);
+        line-height: remify(20px);
+    }
+
+}
 .text-16-33 {
     font-size: remify(16px);
     line-height: remify(33px);
 }
+.text-16-26 {
+    font-size: remify(16px);
+    line-height: remify(26px);
+    @screen xl {
+        font-size: remify(18px);
+        line-height: remify(30px);
+    }
+}
+.text-30-42 {
+    @apply font-bold;
+    font-size: remify(30px);
+    line-height: remify(42px);
+    @screen md {
+        font-size: remify(36px);
+        line-height: remify(50px);
+    }
+    @screen xl {
+        font-size: remify(55px);
+        line-height: remify(76px);
+    }
+}
+
