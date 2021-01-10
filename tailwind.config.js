@@ -45,7 +45,8 @@ module.exports = {
        },
        backgroundColor: {
          'hero': '#F6F8FB',
-         'purple': '#8D448B'
+         'purple': '#8D448B',
+         'grey': '#DADADA'
        },
        height: {
          xl: '55px',
@@ -58,7 +59,9 @@ module.exports = {
         '1/4': '25%',
         '1/2': '50%',
         '3/4': '75%',
+        633: '633px',
         580: '580px',
+        470: '470px',
         265: '265px',
         100: '100px'
        },
