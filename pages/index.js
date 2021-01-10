@@ -94,8 +94,18 @@ export async function getStaticProps() {
             }
             
           ... on Feature {
+            id
             title
             text
+            featureitems {
+              id
+              image {
+                id
+                url
+              }
+              title
+              text
+            }
           }
         }
       }
