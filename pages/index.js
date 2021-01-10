@@ -69,6 +69,16 @@ export async function getStaticProps() {
               link
             }
           }
+          ... on Video {
+            info {
+              title
+              text
+              link
+              image {
+                url
+              }
+            }
+          }
         }
       }
     }
