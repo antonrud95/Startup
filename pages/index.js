@@ -76,6 +76,21 @@ export async function getStaticProps() {
               image {
                 url
               }
+              buttons {
+                name
+                id
+                type
+                link
+              }
+              inputfield {
+                id
+                type
+                placeholder
+              }
+              sponsored {
+                id
+                url
+              }
             }
             
           ... on Feature {
