@@ -1,13 +1,32 @@
-function Feature({ title, text }) {
+import FeatureItems from '../components/feature-items'
+import Fade from 'react-reveal/Fade';
+
+const Feature = ({ title, text, featureitems }) => {
     return (
-      <header className="bg-blue-800 py-12 md:py-20 text-center">
-        <div className="max-w-4xl mx-auto px-6">
-          <h1 className="font-semibold mb-4 text-2xl md:text-4xl text-white">
-            {title}
-          </h1>
-        <h2 className="font-medium text-blue-300 text-lg">{text}</h2>
+      <div className="container mx-auto px-4 py-25 md:py-60">
+        <div className="text-center">
+          <Fade bottom>
+            <h3 className="text-18px text-purple">
+              {title}
+            </h3>
+          </Fade>
+          <Fade bottom delay={300}>
+            <p className="text-30-55 text-black">{text}</p>
+          </Fade>
         </div>
-      </header>
+        <Fade bottom delay={400}>
+          <div className="text-center mt-sm lg:mt-xxl flex flex-wrap">
+            {featureitems.map((item) => (
+              <FeatureItems
+                key={item.id} 
+                image={item.image.url}
+                title={item.title}
+                text={item.text}
+              />
+            ))}
+          </div>
+        </Fade>
+      </div>
     );
   }
   

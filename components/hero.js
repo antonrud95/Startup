@@ -16,7 +16,7 @@ const Hero = ({ title, text, buttons, inputfield, sponsored, image }) => {
               </Fade>
               <Fade top delay={400}>
                 <div className="mb-sm md:mb-xxl">
-                  <form className="flex justify-between md:h-xl">
+                  <form className="flex justify-between md:h-xl max-w-580">
                     <input type={inputfield.type} placeholder={inputfield.placeholder} className="text-16-26 md:min-h-full px-13 md:px-25 w-full shadow-input rounded-8px"/>
                     <Button 
                       type={buttons[0].type}
