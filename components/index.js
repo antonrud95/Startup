@@ -9,4 +9,4 @@ import Hire from './hire'
 import Footer from './footer'
 import Slider from './slider';
 
-export { Header, Hero, Feature, Advantage, Video, Support, Tutorial, Hire, Footer, Slider };
+export { Header, Hero, Feature, Advantage, Video,  Slider, Support, Tutorial, Hire, Footer };
