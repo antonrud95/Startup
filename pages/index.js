@@ -79,6 +79,16 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Support {
+            info {
+              title
+              text
+              link
+              image {
+                url
+              }
+            }
+          }
         }
       }
     }
