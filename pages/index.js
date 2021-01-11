@@ -102,6 +102,24 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Hire {
+            text
+            btn {
+              id
+              name
+              type
+              link
+            }
+            image {
+              url
+            }
+            lightup {
+              url
+            }
+            lightdown {
+              url
+            }
+          }
         }
       }
     }
