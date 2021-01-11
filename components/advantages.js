@@ -7,7 +7,7 @@ const Advantage = ({ info }) => {
             delayFirst={200}
             delaySecond={300}
             delayThird={500}
-            delayFourth={0}
+            delayFourth={750}
             title={info.title}
             text={info.text}
             image={info.image.url}

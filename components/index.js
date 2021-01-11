@@ -6,5 +6,6 @@ import Video from './video';
 import Support from './support';
 import Tutorial from './tutorials';
 import Hire from './hire'
+import Footer from './footer'
 
-export { Header, Hero, Feature, Advantage, Video, Support, Tutorial, Hire };
+export { Header, Hero, Feature, Advantage, Video, Support, Tutorial, Hire, Footer };

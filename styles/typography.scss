@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Playfair+Display&display=swap');
 
+.text-14-18 {
+    font-size: remify(14px);
+    line-height: remify(18px);
+}
 .text-15-28 {
     font-size: remify(15px);
     line-height: remify(28px);

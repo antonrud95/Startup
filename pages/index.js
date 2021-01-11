@@ -120,6 +120,10 @@ export async function getStaticProps() {
               url
             }
           }
+          ... on Footer {
+            text
+            links
+          }
         }
       }
     }
