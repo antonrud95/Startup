@@ -89,6 +89,19 @@ export async function getStaticProps() {
               }
             }
           }
+          ... on Tutorial {
+            uppertitle
+            title
+            featureitems {
+              id
+              title
+              text
+              image {
+                url
+                id
+              }
+            }
+          }
         }
       }
     }

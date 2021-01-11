@@ -24,22 +24,28 @@ module.exports = {
          13: '13px',
          20: '20px',
          25: '25px',
+         35: '35px',
          42: '42px',
          60: '60px',
          100: '100px',
          110: '110px',
          150: '150px',
-         200: '200px'
+         200: '200px',
+         270: '270px'
        },
        margin: {
         xxs: '10px',
         xs: '20px',
+        25: '25px',
         sm: '30px',
+        35: '35px',
         xl: '48px',
-        xxl: '70px'
+        xxl: '70px',
+        160: '160px'
        },
        letterSpacing: {
-         'button': '-0.16px'
+         'button': '-0.16px',
+         'title': '-1.5px'
        },
        borderColor: {
         'purple': '#8D448B'
@@ -47,7 +53,8 @@ module.exports = {
        backgroundColor: {
          'hero': '#F6F8FB',
          'purple': '#8D448B',
-         'grey': '#DADADA'
+         'grey': '#DADADA',
+         'tutorials': '#F8FAFC'
        },
        height: {
          xl: '55px',
@@ -65,14 +72,18 @@ module.exports = {
         580: '580px',
         500: '500px',
         470: '470px',
+        410: '410px',
         265: '265px',
+        230: '230px',
         135: '135px',
         100: '100px'
        },
        maxHeight: {
+         230: '230px',
          28: '28px'
        },
        width: {
+         '32%': '32%',
          110: '110px'
        },
        zIndex: {
