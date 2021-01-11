@@ -124,6 +124,17 @@ export async function getStaticProps() {
             text
             links
           }
+          ... on Slider {
+            uppertitle
+            title
+            slideritems {
+              photo{
+                url
+              }
+              name
+              position
+            }
+          }
         }
       }
     }
