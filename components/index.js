@@ -5,5 +5,6 @@ import Advantage from './advantages';
 import Video from './video';
 import Support from './support';
 import Tutorial from './tutorials';
+import Hire from './hire'
 
-export { Header, Hero, Feature, Advantage, Video, Support, Tutorial };
+export { Header, Hero, Feature, Advantage, Video, Support, Tutorial, Hire };
