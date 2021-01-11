@@ -22,6 +22,11 @@
     font-size: remify(18px);
     line-height: remify(40px);
 }
+.text-18-30 {
+    @apply font-bold;
+    font-size: remify(18px);
+    line-height: remify(30px);
+}
 .text-18-45 {
     font-size: remify(15px);
     line-height: remify(25px);
@@ -90,6 +95,14 @@
     @screen xl {
         font-size: remify(36px);
         line-height: remify(55px);
+    }
+}
+.text-36-65 {
+    font-size: remify(22px);
+    line-height: remify(30px);
+    @screen lg {
+        font-size: remify(36px);
+        line-height: remify(65px);
     }
 }
 .text-48-60 {

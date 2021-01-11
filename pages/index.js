@@ -128,11 +128,13 @@ export async function getStaticProps() {
             uppertitle
             title
             slideritems {
+              id
               photo{
                 url
               }
               name
               position
+              text
             }
           }
         }

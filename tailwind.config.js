@@ -13,6 +13,9 @@ module.exports = {
          '5px': '5px',
          '8px': '8px'
        },
+       borderWidth: {
+        '3': '3px'
+       },
        textColor: {
          'black': '#0F2137',
          'purple': '#8D448B',
@@ -43,6 +46,7 @@ module.exports = {
         sm: '30px',
         35: '35px',
         xl: '48px',
+        58: '58px',
         xxl: '70px',
         100: '100px',
         160: '160px',
@@ -63,7 +67,8 @@ module.exports = {
        },
        height: {
          xl: '55px',
-         md: '28px'
+         md: '28px',
+         50: '50px'
        },
        boxShadow: {
          'input': '0px 10px 50px rgba(48, 98, 145, 0.08)'
@@ -72,6 +77,7 @@ module.exports = {
         '1/4': '25%',
         '1/2': '50%',
         '3/4': '75%',
+        822: '822px',
         650: '650px',
         633: '633px',
         580: '580px',
@@ -83,17 +89,22 @@ module.exports = {
         260: '260px',
         230: '230px',
         135: '135px',
-        100: '100px'
+        100: '100px',
+        50: '50px'
        },
        maxHeight: {
          230: '230px',
          60: '60px',
          28: '28px'
        },
+       fontFamily: {
+        'play': ['Playfair Display', 'serif'],
+       },
        width: {
          '32%': '32%',
          110: '110px',
-         260: '260px'
+         260: '260px',
+         50: '50px'
        },
        zIndex: {
          '1000': 1000
