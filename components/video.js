@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 const Video = ({info}) => {
     return(
-        <div className="container mx-auto px-4 py-42 lg:py-100">
+        <div className="container max-w-1146 mx-auto px-4 py-42 lg:py-100">
             <div className="text-center">
                 <Fade bottom>
                     <h2 className="text-48-60 mb-sm lg:max-w-650 lg:mx-auto">{info.title}</h2>

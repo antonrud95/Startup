@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 const Hero = ({ title, text, buttons, inputfield, sponsored, image }) => {
     return (
       <div className="bg-hero py-110 lg:py-150 xl:py-200">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row">
+        <div className="container max-w-1410 mx-auto px-4 flex flex-col md:flex-row">
             <div className="md:w-1/2">
               <Fade top>
                 <h1 className="text-30-42 text-main mb-xs lg:max-w-3/4 xl:max-w-580">

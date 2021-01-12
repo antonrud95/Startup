@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 const Feature = ({ title, text, featureitems }) => {
     return (
-      <div className="container mx-auto px-4 py-25 md:py-60">
+      <div className="container max-w-1232 mx-auto px-4 py-25 md:py-60">
         <div className="text-center">
           <Fade bottom>
             <h3 className="text-18px text-purple">

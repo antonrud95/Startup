@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const Footer = ({text, links}) => {
     return(
-        <div className='container mx-auto px-4 md:flex items-center justify-between py-45'>
+        <div className='container max-w-1326 mx-auto px-4 md:flex items-center justify-between py-45'>
             <div className='lg:flex items-center mb-25 md:mb-0'>
                 <Fade bottom>
                     <Logo />
