@@ -29,7 +29,7 @@ const Header = ({ links, button }) => {
     const navStyles = 'fixed right-0 left-0 top-0 py-25 z-1000 transition duration-500 ease-in-out'
     return (
       <header className={isOnTop ? navStyles : classnames(navStyles, 'bg-white')}>
-        <div className="container mx-auto px-4">
+        <div className="container max-w-1410 mx-auto px-4">
           <div className='flex items-center justify-between '>
             <Fade top>
               <Logo />

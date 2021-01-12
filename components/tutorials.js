@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 const Tutorial = ({uppertitle, title, featureitems}) => {
     return(
         <div className="bg-tutorials pt-25 md:pt-60 pb-100 md:pb-270 mt-xl lg:mt-160">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 max-w-1326">
                 <div className="text-center mb-xs lg:mb-xl">
                     <Fade bottom>
                         <h4 className="text-18px text-purple capitalize">{uppertitle}</h4>

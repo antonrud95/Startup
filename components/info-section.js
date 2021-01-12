@@ -5,7 +5,7 @@ import { faCheckCircle, faChevronRight } from '@fortawesome/free-solid-svg-icons
 
 const InfoSection = ({isReversed, delayFirst, delaySecond, delayThird, delayFourth, delayFifth, title, text, image, infoitems, link}) => {
     return(
-        <div className={isReversed ? 'container mx-auto px-4 py-25 md:py-60 md:flex md:flex-wrap md:flex-row-reverse' : 'container mx-auto px-4 py-25 md:py-60 md:flex md:flex-wrap md:flex-row'}>
+        <div className={isReversed ? 'container max-w-1232 mx-auto px-4 py-25 md:py-60 md:flex md:flex-wrap md:flex-row-reverse' : 'container max-w-1232 mx-auto px-4 py-25 md:py-60 md:flex md:flex-wrap md:flex-row'}>
             <div className={isReversed ? 'md:w-1/2 md:max-w-470 xl:pt-110 md:ml-auto' : 'md:w-1/2 xl:pt-110'}>
                 <Fade bottom delay={delayFirst}>
                     <h2 className={isReversed ? "text-48-60 text-main mb-xs" : "text-48-60 text-main mb-xs md:max-w-580"}>{title}</h2>

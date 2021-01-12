@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 const Hire = ({text, btn, image, lightup, lightdown}) => {
     return(
         <Fade bottom>
-            <div className='container mx-auto px-4 relative md:-mt-20'>
+            <div className='container max-w-1326 mx-auto px-4 relative md:-mt-20'>
                 <div className='md:flex md:items-center md:justify-between py-30 px-20 md:px-70 bg-purple rounded-5px'>
                     <h2 className='mb-xs md:mb-0 text-center md:text-left text-36-55 text-white tracking-title 2xl:max-w-521'>{text}</h2>
                     <div className='lg:mx-sm xl:mr-100'>
